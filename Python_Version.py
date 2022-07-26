@@ -33,7 +33,7 @@ def ellipsoid(*varargin):
     return x,y,z
 
 
-pictureName = "mars.png" #the 2D picture's name of Mars: "light.png"
+pictureName = "mars.png" #the 2D picture's name of Mars: "mars.png"
 
 R = 3397200 #Mars equatorial radius in meters
 f = 1999/339619 #flatenning factor of Mars
