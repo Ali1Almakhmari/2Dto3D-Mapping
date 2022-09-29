@@ -23,7 +23,7 @@ view(0,10);
 filename = 'GIF.gif'; %what name to use when saving your GIF
 axis off;
 set(gcf, 'InvertHardCopy', 'off'); 
-set(gcf,'Color',[0 0 0]); % RGB values [0 0 0] indicates black color
+set(gcf,'Color',[0 0 0]); % RGB values [0 0 0] indicates black color for the background of the GIF
 for i = 1:360
     rotate(planet,[0 0 1],1)
     frame = getframe(1);
