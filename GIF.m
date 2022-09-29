@@ -1,6 +1,6 @@
 clear
 clc
-picturePath = "C:\Users\Ali\Desktop\truemap_interploated.tiff"; %the 2D picture's name of Mars: "light.png"
+picturePath = "C:\Users\Ali\Desktop\truemap_interploated.tiff"; %the 2D picture's name of Mars: "truemap_interploated.tiff"
 
 R = 3397200; %Mars equatorial radius in meters
 f = 1999/339619; %flatenning factor of Mars
